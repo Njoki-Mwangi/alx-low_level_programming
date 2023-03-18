@@ -9,17 +9,18 @@
 int main(void)
 
 {
-char ch;
+int n = 97;
 
-for (ch ='a'; ch <= 'z'; ch++);
-
+while (n <= 122)
 {
 
-putchar (ch);
+putchar (n);
+n++;
+}
 
 putchar ('\n');
 
-}
+
 
 return (0);
 }
