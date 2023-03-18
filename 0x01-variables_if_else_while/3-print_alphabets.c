@@ -15,11 +15,12 @@ int m = 65;
 while (n <= 122)
 {
 putchar(n);
-
+n++
 }
 while (n <= 90)
 {
 putchar (m);
+m++
 }
 putchar ('\n');
 
