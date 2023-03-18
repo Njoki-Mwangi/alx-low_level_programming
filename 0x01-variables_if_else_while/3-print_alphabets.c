@@ -15,14 +15,15 @@ int m = 65;
 while (n <= 122)
 {
 putchar(n);
-n++
+n++;
 }
-while (n <= 90)
+while (m <= 90)
 {
-putchar (m);
-m++
+
+putchar(m);
+m++;
 }
-putchar ('\n');
+putchar('\n');
 
 return (0);
 }
