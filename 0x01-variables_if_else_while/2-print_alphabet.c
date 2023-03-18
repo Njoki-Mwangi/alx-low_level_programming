@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main-entry pointt
+ * main - Entry pointt
  *
  * Description:prints lower case
  *
- * Returns:Always 0 (succes)
+ * Return: Always 0 (succes)
  */
 int main(void)
 
