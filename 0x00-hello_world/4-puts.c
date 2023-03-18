@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * This function prints a message to the console and returns 0 on success.
+ *Description: This function prints a message and returns 0.
  *
  * Return: Always 0 (success)
  */
