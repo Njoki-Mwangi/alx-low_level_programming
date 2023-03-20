@@ -4,7 +4,7 @@
  * Description:combinations of single_digit numbers
  * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
 int num;
 
