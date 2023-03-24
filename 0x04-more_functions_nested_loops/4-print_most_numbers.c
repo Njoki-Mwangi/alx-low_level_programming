@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*prints_most_numbers -prints the numbers since 0 up to 9
+*print_most_numbers-prints the numbers since 0 up to 9
 *
 *Description:Prints the numbers excluding 2 and 4
 *
@@ -15,7 +15,7 @@ if (x == 2 || x == 4)
 {
 continue;
 }
-else 
+else
 {
 _putchar(x + '0');
 }
