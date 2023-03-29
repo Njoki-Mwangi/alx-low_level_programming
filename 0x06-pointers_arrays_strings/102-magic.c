@@ -15,6 +15,9 @@ p = &n;
 * - you are not allowed to modify p
 * - only one statement
 * - you are not allowed to code anything else than this line of code
+*main-Entry point
+*Description:print magic
+*Return: Always 0 (success)
 */
 *(p + 5) = 98;
 /* ...so that this prints 98\n */
