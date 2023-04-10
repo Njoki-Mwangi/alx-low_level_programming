@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * _strcat - concatenates two strings
- * @dest: input value
- * @src: input value
- *
- * Return: void          
+ * _isdigit - checks for a digit (0 through 9)
+ * @c: int to be checked
+ * Return: 1 if c is a digit, 0 otherwise
  */
 char *_strcat(char *dest, char *src)
 {
@@ -21,7 +19,7 @@ while (src[j] != '\0')
 dest[i] = src[j];
 i++;
 j++;
-}                      
+}
 dest[i] = '\0';
 return (dest);
 }
