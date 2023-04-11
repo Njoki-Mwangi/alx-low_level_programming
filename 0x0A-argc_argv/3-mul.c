@@ -2,14 +2,13 @@
 #include "main.h"
 /**
 *_atoi - converts a string to an integer
-*@s:string to be converted
+*@s: string to be converted
 *Return: int converted from a string
 */
 int _atoi(char *s)
 {
-	int i, d, n, len, f, digit;
-
-	i = 0;
+int i, d, n, len, f, digit;
+i = 0;
 	d = 0;
 	n = 0;
 	len = 0;
@@ -42,11 +41,11 @@ if (f == 0)
 return (0);
 return (n);
 }
- /**
+/**
 *main - multiplies two numbers
-*@argc:integer that represents number of arguments
-*@argv:arrays of strings rep actual arguments
-*Return: int converted from a string
+*@argc: integer that represents number of arguments
+*@argv: arrays of strings rep actual arguments
+*Return: Always 0 (success)
 */
 int main(int argc, char *argv[])
 {
@@ -58,12 +57,11 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	num1 = _atoi(argv[1]);
-	num2 = _atoi(argv[2]);
-	result = num1 * num2;
+num1 = _atoi(argv[1]);
+num2 = _atoi(argv[2]);
+result = num1 * num2;
 
-	printf("%d\n", result);
-
-	return (0);
+printf("%d\n", result);
+return (0);
 }
 
